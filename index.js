@@ -11,4 +11,4 @@ if (!lines[0].toLowerCase().includes('override')) {
 } else {
   overridestatus = 'present';
 }
-core.setoutput('override_status',overridestatus)
+core.setOutput('override_status',overridestatus)
