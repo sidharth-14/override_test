@@ -3,7 +3,7 @@ description: 'Get Discussion Body to check for override condition'
 inputs:
   github-context:
     description: 'The GitHub context payload'
-    required: true
+    required: false
 
 runs:
   using: 'node16'
